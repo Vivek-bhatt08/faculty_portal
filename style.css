@@ -29,7 +29,7 @@ html, body{
 
 #nav{
     border-top-left-radius: 20px;
-    width: 6%;
+    width: 7%;
     height: 100%;
     background-color: rgb(72,58,111);
 }
@@ -40,24 +40,24 @@ html, body{
 }
 #navicons{
     height: 100%;
-    width: 5.5%;
+    width: 6.2%;
     border-top-left-radius: 20px;
     background-color: rgb(72,58,111);
     position: fixed;
 
 }
 .icons{
-    width: 100%;
+    width: 99.5%;
     height: 60px;
     text-align: center;
     align-content: center;
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 25px;
     color: white;
     cursor: pointer;
 }
 #home{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .icons:hover{
     color: rgb(72,58,111);
@@ -83,7 +83,7 @@ html, body{
         margin-top: 15px;
     }
     #navicons{
-        width: 95%;
+        width: 99%;
         height:85px;
         display: flex;
         position: absolute;
@@ -240,7 +240,7 @@ html, body{
     grid-column-start:1 ;
     grid-column-end:4 ;
     border-radius: 20px;
-    background-image: url('images/tennis.avif');
+    background-image: url('images/tennis.jpeg');
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -252,7 +252,7 @@ html, body{
     grid-column-start:1 ;
     grid-column-end:4 ;
     border-radius: 20px;
-    background-image: url('images/table\ tennis.avif');
+    background-image: url('images/table\ tennis.jpeg');
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -276,7 +276,7 @@ html, body{
     grid-column-start:10 ;
     grid-column-end:13 ;
     border-radius: 20px;
-    background-image: url('images/8ball.avif');
+    background-image: url('images/8ball.jpeg');
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -417,7 +417,7 @@ html, body{
 }
 .issueitem1{
     color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     grid-row-start:1 ;
     grid-row-end: 2;
     grid-column-start:1 ;
@@ -430,7 +430,7 @@ html, body{
 }
 .issueitem2{
     color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     grid-row-start:2 ;
     grid-row-end: 3;
     grid-column-start:1 ;
@@ -444,7 +444,7 @@ html, body{
 }
 .issueitem3{
     color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     grid-row-start:3 ;
     grid-row-end: 4;
     grid-column-start:1 ;
@@ -458,13 +458,13 @@ html, body{
 }
 .issueitem4{
     color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     grid-row-start:4 ;
     grid-row-end: 5;
     grid-column-start:1 ;
     grid-column-end: 6;
     border-radius: 20px;
-    background-image: url(images/fusball.avif) ;
+    background-image: url(images/martial.jpg) ;
     background-position: center;
     background-size: cover;
     opacity: 0.85;
@@ -472,13 +472,13 @@ html, body{
 }
 .issueitem5{
     color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     grid-row-start:5 ;
     grid-row-end: 6;
     grid-column-start:1 ;
     grid-column-end: 6;
     border-radius: 20px;
-    background-image: url(images/squash.avif) ;
+    background-image: url(images/bowling.jpg) ;
     background-position: center;
     background-size: cover;
     opacity: 0.85;
@@ -641,7 +641,7 @@ html, body{
 /* for my mobile */
 @media only screen and (max-width:400px){
     #main{
-        height: 180%;
+        height: 200%;
     }
     #Sactivity{
         height: 400px;
